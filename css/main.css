@@ -52,26 +52,17 @@ body {
 }
 
 .navresume:hover,
-.navresume:active,
-.navresume:focus {
+.navresume:active {
     background-color: var(--berkeleyblue);
 }
 
-.navabout {
-    border: none;
-    border-radius: 40px;
-    border: 2px solid white;
-    transition: 0.3s;
-    color: var(--berkeleyblue);
-}
-
 .navabout:hover,
-.navabout:active,
-.navabout:focus {
+.navabout:active {
     border: 2px solid var(--berkeleyblue);
 }
 
-.navwork {
+.navwork,
+.navabout {
     transition: 0.3s;
     border: 2px solid white;
     border-radius: 40px;
@@ -296,3 +287,23 @@ footer,
     text-decoration-thickness: 2px;
 }
 
+/* Set focus */
+
+.navworkblue:focus-visible,
+.navaboutblue:focus-visible,
+.navresumecolor:focus-visible {
+    border: none;
+    outline: 2px solid var(--cinnabar);
+    border-radius: 50px;
+    
+}
+
+.projectcard .text-decoration-none:focus-visible,
+.card a:focus-visible,
+.navbar-brand:focus-visible,
+.breadcrumbstyling:focus-visible,
+footer a:focus-visible {
+    border: none;
+    outline: 2px solid var(--cinnabar);
+    border-radius: 32px;
+}
