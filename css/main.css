@@ -267,10 +267,6 @@ footer,
 
 /* Styling skiplink */
 
-/* nav {
-    z-index: 998;
-} */
-
 .skiplink {
     text-decoration: none;
     z-index: 999;
@@ -316,15 +312,26 @@ footer,
     border: none;
     outline: 2px solid var(--cinnabar);
     border-radius: 50px;
-    
+
 }
 
 .projectcard .text-decoration-none:focus-visible,
 .card a:focus-visible,
 .navbar-brand:focus-visible,
 .breadcrumbstyling:focus-visible,
-footer a:focus-visible {
+footer a:focus-visible,
+.form-control:focus-visible,
+.message:focus-visible,
+.form button:focus-visible {
     border: none;
     outline: 2px solid var(--cinnabar);
     border-radius: 32px;
+    box-shadow: 0px 0px 10px rgb(180, 180, 180);
+}
+
+/* Form Validation */
+
+input:invalid {
+    background-color: var(--cinnabar);
+    box-shadow: 0px 0px 5px rgb(180, 180, 180);
 }
