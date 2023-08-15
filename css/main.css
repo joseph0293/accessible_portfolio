@@ -267,8 +267,29 @@ footer,
 
 /* Styling skiplink */
 
+/* nav {
+    z-index: 998;
+} */
+
 .skiplink {
+    text-decoration: none;
+    z-index: 999;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 50px;
+    border: 2px solid var(--berkeleyblue) !important;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
     transform: translateY(-200px);
+    background-color: var(--cinnabar);
+    position: absolute;
+}
+
+
+.skiplink:focus-visible {
+    transform: translateY(100px);
     position: absolute;
 }
 

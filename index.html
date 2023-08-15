@@ -29,8 +29,15 @@
 </head>
 
 <body>
-    <!-- NAVIGATION -->
+
     <header role="banner">
+
+        <!-- Skip link for screen readers for accessibility -->
+        <div class="skipbutton">
+            <a class="skiplink" href="#skipcontent">Skip To Content</a>
+        </div>
+
+        <!-- NAVIGATION -->
         <nav role="navigation" class="fixed-top navbar navbar-expand-lg bg-white shadow py-lg-2">
             <div class="container javanav">
                 <a class="d-lg-none navbar-brand ps-3 ps-sm-0" href="index.html">
@@ -119,12 +126,8 @@
 
         <!-- DIV to give space between nav bar and the banner, so banner doesn't get covered by nav bar -->
         <div class="py-5 my-4"></div>
-        <!-- ****************************************** NAVIGATION ENDS ****************************************** -->
 
-        <!-- Skip link for screen readers for accessibility -->
-        <div class="skiplink">
-            <a href="#skipcontent">Skip To Content</a>
-        </div>
+        <!-- ****************************************** NAVIGATION ENDS ****************************************** -->
 
         <!-- BANNER IMAGE + TITLE/INTRODUCTION -->
         <div class="card text-bg-dark border-0 rounded-0">
@@ -163,7 +166,7 @@
             <div class="vid">
                 <div class="showreelvideo">
                     <!-- Put the video here! -->
-                    <video class="rounded-5 text-center w-75" src="videos/showreel.mp4" autoplay loop muted></video>
+                    <video class="rounded-5 text-center w-75" alt="Showreel video of all my work" src="videos/showreel.mp4" autoplay loop muted></video>
                 </div>
                 <div class="videowhite"></div>
             </div>
