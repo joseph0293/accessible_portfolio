@@ -222,6 +222,9 @@ footer,
 }
 
 .breadcrumbstyling:hover {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 2px;
     color: var(--cinnabar);
 }
 
@@ -322,7 +325,11 @@ footer,
 footer a:focus-visible,
 .form-control:focus-visible,
 .message:focus-visible,
-.form button:focus-visible {
+.form button:focus-visible,
+.navphotography:focus-visible,
+.navuxdesign:focus-visible,
+.navartdirection:focus-visible,
+.navbar-toggler:focus-visible {
     border: none;
     outline: 2px solid var(--cinnabar);
     border-radius: 32px;
