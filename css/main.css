@@ -284,6 +284,7 @@ footer,
     transform: translateY(-200px);
     background-color: var(--cinnabar);
     position: absolute;
+    transition: 0.4s;
 }
 
 
