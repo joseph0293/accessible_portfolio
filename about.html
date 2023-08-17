@@ -145,7 +145,7 @@
                     <img src="images/self.jpg" srcset="images/self-500.jpg 500w,
                                 images/self-1000.jpg 1000w,
                                 images/self-1500.jpg 1500w" sizes="(min-width: 960px) 50vw, 100vw"
-                        class="rounded-circle img-fluid p-2" alt="Photo of myself">
+                        class="rounded-circle img-fluid p-2 w-100" alt="Photo of myself">
                 </div>
                 <div class="col-lg-6 col-xl-7 col-xxl-8">
                     <div class="card-body">
@@ -184,14 +184,14 @@
                 <div class="row">
                     <div class="col-md-6 mb-4">
                         <label for="fname" class="form-label textberkeley fw-medium fs-5">First Name</label>
-                        <input data-toggle="tooltip" data-placement="top" title="I'm sure your name has only alphabets" aria-required="true"
+                        <input data-toggle="tooltip" data-placement="top" title="What everyone calls you (only letters please)" aria-required="true"
                             placeholder="First Name" type="text" id="fname"
                             class="form-control rounded-5 textberkeley inputborderberkely fs-4 p-2 px-3"
                             aria-label="First name" pattern="[A-Za-z]{1,50}">
                     </div>
                     <div class="col-md-6 mb-4">
                         <label for="lname" class="form-label fw-medium fs-5">Last Name</label>
-                        <input data-toggle="tooltip" data-placement="top" title="I'm sure your name has only alphabets"
+                        <input data-toggle="tooltip" data-placement="top" title="Family Name or Initial (only letters please)"
                             placeholder="Last Name" type="text" id="lname"
                             class="form-control rounded-5 textberkeley inputborderberkely fs-4 p-2 px-3"
                             aria-label="Last name" pattern="[A-Za-z]{1,50}">
@@ -199,12 +199,12 @@
                 </div>
                 <div class="mb-4">
                     <label for="email" class="form-label textberkeley fw-medium fs-5">Email</label>
-                    <input placeholder="example@email.com" type="email"
+                    <input placeholder="example@email.com" type="email" title="This is how I can contact you!"
                         class="form-control rounded-5 textberkeley inputborderberkely fs-4 p-2 px-3" id="email">
                 </div>
                 <div class="mb-4">
                     <label class="form-label textberkeley fw-medium fs-5" for="message">Message</label> <br>
-                    <textarea
+                    <textarea title="What would you like to say?"
                         placeholder="Hi there! I love your portfolio and would like to discuss a potential collaboration for a packaging design. Let's talk!"
                         class="message rounded-5 p-3 textberkeley inputborderberkely fs-4" id="message" cols="30"
                         rows="7"></textarea>
