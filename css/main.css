@@ -342,3 +342,10 @@ input:invalid {
     background-color: var(--cinnabar);
     box-shadow: 0px 0px 5px rgb(180, 180, 180);
 }
+
+
+/* Styling Modal */
+
+.modalstyle {
+    border: 2px solid var(--berkeleyblue);
+}
