@@ -205,8 +205,7 @@ footer,
 .outlinebutton:active,
 .navwork:hover,
 .navwork:active,
-.inputborderberkely,
-.thumbnailborder {
+.inputborderberkely {
     border: 2px solid var(--berkeleyblue);
 }
 
@@ -319,7 +318,8 @@ footer,
 
 }
 
-.projectcard .text-decoration-none:focus-visible,
+.projectcard:focus-visible,
+.text-decoration-none:focus-visible,
 .card a:focus-visible,
 .navbar-brand:focus-visible,
 .breadcrumbstyling:focus-visible,
